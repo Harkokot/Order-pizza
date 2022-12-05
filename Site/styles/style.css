@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+header p{
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 70px;
+}
+
+.basket{
+    box-sizing: border-box;
+    position: absolute;
+    right: 3%;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+#pict{
+    fill: white;
+    background-color: brown;
+    border: brown 3px solid;
+    border-radius: 10px;
+}
+
+#pict:hover{
+    fill: brown;
+    background-color: white;
+    border-color: white;
+}
+
+.productField{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.productRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pizza{
+    width: 300px;
+}
+
+.pizzaImage{
+    width: 100%;
+}
+
+.pizzaName{
+    text-align: center;
+    font-size: 30px;
+}
